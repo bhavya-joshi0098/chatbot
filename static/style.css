@@ -1,0 +1,34 @@
+.chat-window p {
+    margin: 5px 0;
+    display: inline-block;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.text-end p {
+    background-color: #007bff;
+    /* User message background */
+    color: white;
+    border-radius: 10px 10px 0 10px;
+}
+
+.text-start p {
+    background-color: #f8f9fa;
+    /* Light grey for bot response */
+    color: black;
+    border-radius: 10px 10px 10px 0;
+}
+
+.code-block {
+    background-color: #f8f9fa;
+    /* Light grey */
+    color: #333;
+    /* Dark text */
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    /* Preserve formatting */
+    margin: 10px 0;
+}
